@@ -1,0 +1,18 @@
+    *{
+        font-size: 37pt;
+        color: blue;
+        background-color: yellow;
+    }
+    
+    p.klasa_nieuniwersalna_grabowski{
+        font-size: 34pt;
+        color: purple;
+    
+    }
+    
+    
+    .klasa_uniwersalna_grabowski{
+        font-size: 25pt;
+        color: black;
+    }
+    
