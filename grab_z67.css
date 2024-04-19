@@ -3,6 +3,10 @@ p:first-letter
 	font-size: 115pt;
 	color: silver;
 }
+p#drugi:first-letter
+{
+	color: yellow;
+}
 p
 {
 	font-size:22pt;
