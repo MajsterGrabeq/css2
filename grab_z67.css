@@ -1,4 +1,4 @@
-p:first-letter
+p#pierwszy:first-letter
 {
 	font-size: 115pt;
 	color: silver;
