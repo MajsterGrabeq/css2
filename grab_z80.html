@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+ <table style="border: 2px solid black; border-collapse: collapse;">
+        <caption></caption>
+        <thead>
+            <tr style="background-color: #FFFFFF;">
+                <td colspan="2" valign="center" align="center">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="font-family: Arial; font-size: 16px;">
+                <td style="border: 1px solid black; color: black;" colspan="2" rowspan="2"><p>pozycjonowanie   -></td>
+                <td style="border: 1px solid black; color: black;" colspan="3" >Pozycjonowanie pozwala zdefiniować położenie elementów na stronie internetowej. Elementy można rozmieszczać nie tylko względem brzegów strony, ale również względem jej poszczególnych elementów. Można rozmieszczac elementy tak, że jeden będzie przykrywał inny.</td>
+               </tr>
+               <tr style="font-family: Arial; font-size: 16px;">
+                <td style="border: 1px solid black; color: black; ">Do pozycjonowania służy atrybut position
+                    selektor{ position: rodzaj; parametry; }
+                    </td>
+                    </tr>
+
+
+                    <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;" colspan="2" rowspan="4">1</td>
+                        <td style="border: 1px solid black; color: black; " colspan="3" ><b>Pozycjonowanie relatywne</b>
+                        </td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >Można przesunąć wybrany element w stosunku do naturalnego pozycjonowania 
+                            elementów. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na 
+                            przykład lewej i górnej krawędzi.</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >selektor {position: relative; kierunek: wielkość;}</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >np. selektor {position: relative; left: 10px; top: 10px;}</td>
+                       </tr>
+
+
+
+
+
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;" colspan="2" rowspan="4">2</td>
+                        <td style="border: 1px solid black; color: black; " colspan="3" ><b>Pozycjonowanie  absolutne</b>
+                        </td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" > można przesunąć wybrany element w stosunku do wybranych 
+                            krawędzi strony lub też nadrzędnego elementu tworzącego blok. Będzie to niezależne od 
+                            innych elementów, a także od miejsca wpisania reguły w dokumencie.
+                            Należy zachować ostrożność, używając pozycjonowania absolutnego, ponieważ niekiedy 
+                            może ono prowadzić do nieprzewidywalnych zachowań.
+                            Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej 
+                            krawędzi.</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >selektor {position: absolute; kierunek: wielkość;}</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >np. selektor {position: absolute; left: 10px; top: 10px;}</td>
+                       </tr>
+
+
+
+
+
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;" colspan="2" rowspan="4">3</td>
+                        <td style="border: 1px solid black; color: black; " colspan="3" ><b>Pozycjonowanie ustalone</b>
+                        </td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >Można ustawić na stałe wybrany element w stosunku do krawędzi 
+                            okna. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i 
+                            górnej krawędzi. Składnia reguły będzie wyglądała następująco:</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >selektor {position: fixed; kierunek: wielkość;}</td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >np. selektor {position: fixed; left: 10px; top: 10px;}
+                            td>
+                       </tr>
+
+
+
+
+
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;" colspan="2" rowspan="3">4</td>
+                        <td style="border: 1px solid black; color: black; " colspan="3" ><b>Pozycjonowanie statyczne</b>
+                        </td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >Można przywrócić naturalne pozycjonowanie elementów oparte na 
+                            kolejności występowania w dokumencie HTML. Podanie jakiejkolwiek odległości nie ma 
+                            żadnego wpływu na pozycję elementu.
+                            </td>
+                       </tr>
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; " colspan="3" >selektor {position: static;}
+                        </td>
+                       </tr>
+                    
+                    
+     </table>
+
+</body>
+</html>
